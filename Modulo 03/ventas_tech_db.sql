@@ -110,7 +110,8 @@ INSERT INTO productos (id_producto, nombre_producto, id_categoria, precio, stock
   (3, 'Monitor 4K 27',      1,  450.00, 12, 1),
   (4, 'Auriculares BT Pro', 3,  120.00, 35, 1),
   (5, 'SSD Externo 1TB',    4,  130.00, 18, 1),
-  (6, 'Teclado Mecánico',   2,   95.00, 40, 1);
+  (6, 'Teclado Mecánico',   2,   95.00, 40, 1),
+  (7, 'Webcam Full HD', 2, 75.00, 25, 1);
 GO
 
 -- Tabla de Hechos Ventas (10 registros)
@@ -133,6 +134,6 @@ GO
 
 SELECT * FROM categorias;   -- Filas esperadas: 4
 SELECT * FROM clientes;     -- Filas esperadas: 5
-SELECT * FROM productos;    -- Filas esperadas: 6
+SELECT * FROM productos;    -- Filas esperadas: 7
 SELECT * FROM ventas;       -- Filas esperadas: 10
 GO
